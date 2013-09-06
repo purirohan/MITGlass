@@ -87,7 +87,7 @@ public class MainActivity extends Activity {
 					 * 1. Prints to the LogCat the state you are about to change the light to ("Flashlight is on/off!")
 					 * 2. Turns on or off the flash (google "setFlashMode" on Parameters of the camera ('p')
 					 * 3. Starts or stops the preview (required for camera access) [e.g. camera.stopPreview(); is run when you want to switch it off]
-					 * 4. Changes the background color of our backgroundView (which we'ved named 'v' above)
+					 * 4. Changes the background color of our backgroundView to Color.WHITE when the light is on and Color.BLACK when the light is off (which we'ved named 'v' above)
 					 * 5. Adjusts the boolean value accordingly (so we can toggle it again next time)
 					 */
 
